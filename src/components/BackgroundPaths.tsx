@@ -32,7 +32,7 @@ function FloatingPaths({ position }: { position: number }) {
                 fill="none"
             >
                 <title>FSW Background Paths</title>
-                {paths.map((path) => (
+                {paths.map((path, i) => (
                     <motion.path
                         key={path.id}
                         d={path.d}
