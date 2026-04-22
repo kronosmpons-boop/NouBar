@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+:root {
+  --nou-cream:       #FAF6EF;
+  --nou-warm-white:  #FDF9F4;
+  --nou-dark:        #1A1510;
+  --nou-dark-2:      #2C2318;
+  --nou-amber:       #C4703A;
+  --nou-amber-light: #D4895A;
+  --nou-gold:        #D4A574;
+  --nou-stone:       #8B7355;
+  --nou-sand:        #E8DCC8;
+  --nou-sand-dark:   #D5C4A8;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--nou-cream);
+  color: var(--nou-dark);
+  -webkit-font-smoothing: antialiased;
+  font-family: var(--font-inter, system-ui, sans-serif);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-playfair, Georgia, serif);
+  font-weight: 600;
+  line-height: 1.15;
+}
